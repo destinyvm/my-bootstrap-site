@@ -1,3 +1,7 @@
 footer {
-    bottom: 0px; position: fixed;
+    bottom: 0px; 
 }
+
+.card:hover {
+    background-color:aqua;
+    }
