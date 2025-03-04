@@ -1,5 +1,5 @@
 footer {
-    bottom: 0px;
+    bottom: 0px; position:fixed;
 }
 
 .card:hover {
@@ -8,4 +8,12 @@ footer {
 
     h1{
         border: 1px;
+    }
+
+    .float1{
+        float:left;
+    }
+
+    .float2{
+        float:right;
     }
