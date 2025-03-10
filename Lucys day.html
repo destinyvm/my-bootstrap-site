@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Global Holidays
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ny.html">New-Years</a></li>
+                  <li><a class="dropdown-item" href="Lucys day.html">Saint Lucy's Day</a></li>
+                  <li><a class="dropdown-item" href="christmas.html">Christmas</a></li>
+                  <li><a class="dropdown-item" href="Bodhi.html">Bodhi Day</a></li>
+                  <li><a class="dropdown-item" href="Songkran.html">Songkran</a></li>
+                  <li><a class="dropdown-item" href="Yule.html">Yule Lads</a></li>
+                  <li><a class="dropdown-item" href="#">Winter solstice</a></li>
+                  <li><a class="dropdown-item" href="#">Holi</a></li>
+                  <li><a class="dropdown-item" href="#">Las Posadas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="container">
+        <div class="article">
+            <h1>St. Lucy's Day!</h1>
+            <p>Lucia's Day marks the beginning of the Christmas celebration.</p>
+            <p>On that day the eldest daughter of the family traditionally dresses in a white robe.</p>
+            <p>The daughter also wears as a crown an evergreen wreath studded with candles.</p>
+            <p>The festival is meant to bring hope and light during the darkest time of the year.</p>
+            <p><a href="https://www.britannica.com/biography/Saint-Lucy"><strong>SOURCE</strong></a></p>
+        </div>
+        <div class="images">
+            <img src="data:image/jpeg;base64,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" alt="Zoom In On Christmas Tree">
+            <!--end of image 1-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhAufx2x32fR9SVvsa700LRBZvjqB3NaHCQ&s" alt="Snowman">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Hcp_gwPzpG1T-68jRZ8rkDjBgYn67qL0kw&s" alt="SantaClause">
+        </div>
+    </div>
+  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--start of footer-->
+  <footer class="bg-dark text-white text-center py-3 mt-4 col-12">
+    <p>Made with Bootstrap by Destiny Maxwell</p>
+</footer>
+  <!--end of footer-->
+    
+</html>
